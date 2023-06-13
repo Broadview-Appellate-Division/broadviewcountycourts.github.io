@@ -37,7 +37,7 @@ a:active {
 }
 
 .header-container {
-  background-color: #122337;
+  background-color: #171a1c;
   display: flex;
   align-items: center;
 }
@@ -67,7 +67,7 @@ a:active {
 }
 
 .nav {
-  background-color: #8D211F;
+  background-color: #212f37;
   overflow: hidden;
 }
 
@@ -90,8 +90,8 @@ a:active {
 
 /* Change the color of links on hover */
 .topnav a:hover {
-  background-color: #122337;
-  color: white;
+  background-color: #f2f2f2;
+  color: #212f37;
 }
 
 section.hero {
@@ -166,4 +166,26 @@ section.news li link {
   text-decoration: none;
   margin-top: 20px;
   color: #8D211F
+}
+
+table.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #ffffff;
+  border-style: solid;
+  color: #000000;
+}
+
+table.GeneratedTable td, table.GeneratedTable th {
+  border-width: 2px;
+  border-color: #dddddd;
+  border-style: solid;
+  padding: 3px;
+  text-align: center;
+}
+
+table.GeneratedTable thead {
+  background-color: #ffffff;
 }
